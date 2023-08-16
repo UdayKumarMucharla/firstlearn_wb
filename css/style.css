@@ -65,12 +65,13 @@ h6 {
     letter-spacing: 0;
     font-weight: normal;
     position: relative;
-    padding: 0 0 10px 0;
+    padding: 0 0 0 0;
     font-weight: normal;
     line-height: normal;
     color: #111111;
     margin: 0
 }
+
 
 h1 {
     font-size: 24px
@@ -259,7 +260,10 @@ button {
     color: #fff;
 }
 
-.logo {}
+.logo {
+    font-size: 30px;
+    color: floralwhite;
+}
 
 /* header section end */
 
@@ -268,7 +272,7 @@ button {
 .banner_section {
     width: 100%;
     float: left;
-    background-image: url(../images/banner-bg.png);
+    background-image: url(../images/banner-bg.jpg);
     height: auto;
     background-size: 100%;
     padding: 10px 0px 25px 0px;
@@ -805,6 +809,7 @@ a:hover {
     padding: 23px 70px;
     background-repeat: no-repeat;
     background-size: cover;
+    margin-top: -13%;
 }
 
 .long_text {
@@ -818,9 +823,9 @@ a:hover {
 }
 
 .email_text {
-    width: 100%;
-    float: left;
-    margin-top: 20px;
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .email-bt {
